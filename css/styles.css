@@ -430,6 +430,7 @@ figcaption {
 
 .portfolio-caption {
   display: block;
+  max-width: 370px;
 }
 
 figure {
