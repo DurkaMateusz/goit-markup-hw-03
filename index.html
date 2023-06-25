@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,162 +18,216 @@
     <title>Studio</title>
   </head>
   <body>
-    <header class="navbar">
-      <a href="WebStudio" class="logo">
-        <span class="logo-text-color-primary">Web</span>
-        <span class="logo-text-color-secondary">Studio</span></a>
+    <header>
       <nav class="navigation">
-        <ul>
-          <li>
-            <a href="index.html" class="link">Agencja</a>
-          </li>
-          <li>
-            <a href="portfolio.html" class="link">Portfolio</a>
-          </li>
+        <div class="container navigation-box">
+          <ul class="navigation-list-primary">
+            <li class="logo">
+              <a class="logo-header" href="#">
+                <span class="logo-text-color-primary">Web</span>Studio</a
+              >
+            </li>
+            <li class="agencja">
+              <a href="index.html" class="link">Agencja</a>
+            </li>
+            <li class="portfolio">
+              <a href="portfolio.html" class="link">Portfolio</a>
+            </li>
 
-          <li>
-            <a href="#Kontakt" class="link">Kontakt</a>
-          </li>
-        </ul>
+            <li class="contact-header">
+              <a href="#Kontakt" class="link">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="navigation-list-secondary">
+            <li class="contact-phone">
+              <a href="#" class="contact-phone">+48 111 111 111</a>
+            </li>
+            <li class="contact-mail">
+              <a href="#" class="contact-mail">info@devstudio.com</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <ul>
-        <li>
-          
-            <a href="tel:+48111111111" class="contact" :hover :focus>+48 111 111 111</a>
-          
-        </li>
-        <li>
-          
-            <a href="mailto:info@devstudio.com" class="contact"
-              >info@devstudio.com</a
-            >
-         
-        </li>
-      </ul>
-    </header class="header">
+    </header>
     <main class="main">
-      <h1><div class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</div></h1>
-      <p><button type="button" class="button":hover :focus>Zamów usługę</button></p>
-      <ul class="content">
-        <li>
-          <h2 class="title">Lorem Ipsum</h2>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            impedit accusamus culpa quae! Eligendi magni voluptas excepturi
-            temporibus nihil?
-          </p>
-        </li>
-        <li>
-          <h2 class="title">Lorem Ipsum</h2>
-          <p class="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            officia harum eveniet iste dicta doloremque illo repudiandae,
-            corrupti quam?
-          </p>
-        </li>
-        <li>
-          <h2 class="title">Lorem Ipsum</h2>
-          <p class="text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
-            eos consequatur? Eveniet tempore, totam omnis delectus cum eligendi
-            adipisci!
-          </p>
-        </li>
-        <li>
-          <h2 class="title">Lorem Ipsum</h2>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            aspernatur perspiciatis porro sed ratione nisi eius totam
-            necessitatibus quas.
-          </p>
-        </li>
-      </ul>
-      <h2 class="title-main">CZYM SIĘ ZAJMUJEMY</h2>
-      <img
-        src="images/obrazek1.jpg"
-        width="370"
-        height="294"
-        alt="picture of a programist"
-      />
-      <img
-        src="images/obrazek2.jpg"
-        width="370"
-        height="294"
-        alt="picture of a mobile tester"
-      />
-      <img
-        src="images/obrazek3.jpg"
-        width="370"
-        height="294"
-        alt="picture of a graphic designer"
-      />
-      <h2 class="title-main">Nasz Zespół</h2>
-      <figure>
-        <img
-          src="images/osoba1.jpg"
-          width="270"
-          height="260"
-          alt="picture of a product designer"
-        />
-        <figcaption>
-          <p class="person">John Doe</p>
-          <p class="function">product designer</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          src="images/osoba2.jpg"
-          width="270"
-          height="260"
-          alt="picture of a frontend developer"
-        />
-        <figcaption>
-          <p class="person">John Doe</p>
-          <p class="function">frontend developer</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          src="images/osoba3.jpg"
-          width="270"
-          height="260"
-          alt="picture of a marketing"
-        />
-        <figcaption>
-          <p class="person">John Doe</p>
-          <p class="function">Marketing</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          src="images/osoba4.jpg"
-          width="270"
-          height="260"
-          alt="picture of a UI designer"
-        />
-        <figcaption>
-          <p class="person">John Doe</p>
-          <p class="function">UI designer</p>
-        </figcaption>
-      </figure>
+      <div class="bg_color_top_main">
+        <div class="container">
+          <section class="title_main">
+            <div class="section_main">
+              <h1>
+                <div class="title title_box">
+                  EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+                </div>
+              </h1>
+              <div class="button_box">
+                <button type="button" class="button button_box" :hover :focus>
+                  Zamów usługę
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <section class="section_content">
+        <div class="container">
+          <ul class="content emulated-flex-gap">
+            <li>
+              <h2 class="title">Lorem Ipsum</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi impedit accusamus culpa quae! Eligendi magni voluptas
+                excepturi temporibus nihil?
+              </p>
+            </li>
+            <li>
+              <h2 class="title">Lorem Ipsum</h2>
+              <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                officia harum eveniet iste dicta doloremque illo repudiandae,
+                corrupti quam?
+              </p>
+            </li>
+            <li>
+              <h2 class="title">Lorem Ipsum</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Impedit, eos consequatur? Eveniet tempore, totam omnis delectus
+                cum eligendi adipisci!
+              </p>
+            </li>
+            <li>
+              <h2 class="title">Lorem Ipsum</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+                aspernatur perspiciatis porro sed ratione nisi eius totam
+                necessitatibus quas.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="our_job">
+        <div class="container">
+          <h2 class="title-main">CZYM SIĘ ZAJMUJEMY</h2>
+          <ul class="our_jobs_list">
+            <li>
+              <img
+                class="graph"
+                src="images/obrazek1.jpg"
+                width="370"
+                height="294"
+                alt="picture of a programist"
+              />
+            </li>
+            <li>
+              <img
+                class="graph"
+                src="images/obrazek2.jpg"
+                width="370"
+                height="294"
+                alt="picture of a mobile tester"
+              />
+            </li>
+            <li>
+              <img
+                class="graph"
+                src="images/obrazek3.jpg"
+                width="370"
+                height="294"
+                alt="picture of a graphic designer"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="our_team bg_color_bottom_main">
+        <div class="container">
+          <h2 class="title-main">Nasz Zespół</h2>
+          <ul class="cards">
+            <li class="card">
+              <figure>
+                <img
+                  src="images/osoba1.jpg"
+                  width="270"
+                  height="260"
+                  alt="picture of a product designer"
+                />
+                <figcaption>
+                  <p class="person">John Doe</p>
+                  <p class="function">product designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card">
+              <figure>
+                <img
+                  src="images/osoba2.jpg"
+                  width="270"
+                  height="260"
+                  alt="picture of a frontend developer"
+                />
+                <figcaption>
+                  <p class="person">John Doe</p>
+                  <p class="function">frontend developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card">
+              <figure>
+                <img
+                  src="images/osoba3.jpg"
+                  width="270"
+                  height="260"
+                  alt="picture of a marketing"
+                />
+                <figcaption>
+                  <p class="person">John Doe</p>
+                  <p class="function">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="card">
+              <figure>
+                <img
+                  src="images/osoba4.jpg"
+                  width="270"
+                  height="260"
+                  alt="picture of a UI designer"
+                />
+                <figcaption>
+                  <p class="person">John Doe</p>
+                  <p class="function">UI designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
+
     <footer class="footer">
-      <a href="WebStudio" class="link"><span class="blue-color">Web</span><span class="white-color">Studio</span></a>
-      <address class="address">
-        <ul>
-          <li>
-            <p class="white-color">m. Warszawa, Aleje Jerozolimskie 21</p>
-          </li>
-          <li>
-            <a href="tel:+48111111111" class="link">+48 111 111 111</a>
-          </li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="WebStudio" class="link link_logo"
+          ><span class="blue-color">Web</span
+          ><span class="white-color">Studio</span></a
+        >
+
+        <address class="address">
+          <ul>
+            <li>
+              <p class="white-color">m. Warszawa, Aleje Jerozolimskie 21</p>
+            </li>
+            <li>
+              <a href="tel:+48111111111" class="link">+48 111 111 111</a>
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
