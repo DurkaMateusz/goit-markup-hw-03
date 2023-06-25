@@ -431,3 +431,7 @@ figcaption {
 .portfolio-caption {
   display: block;
 }
+
+figure {
+  margin-inline: 0px;
+}
