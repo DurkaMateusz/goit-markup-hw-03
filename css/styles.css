@@ -410,7 +410,6 @@ figcaption {
 
 .portfolio-card {
   display: block;
-  flex-basis: calc((100%-60px) / 3);
   border: 1px solid #eee;
 }
 
