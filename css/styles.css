@@ -424,12 +424,8 @@ figcaption {
   padding-left: 24px;
   line-height: 30px;
 }
-.portfolio-item {
-  display: block;
-}
 
 .portfolio-caption {
-  display: block;
   max-width: 370px;
 }
 
