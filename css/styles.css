@@ -427,6 +427,7 @@ figcaption {
 
 .portfolio-caption {
   max-width: 370px;
+  padding-bottom: 20px;
 }
 
 figure {
